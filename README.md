@@ -194,6 +194,7 @@ You can run the examples in this repository by executing the scripts in the `exa
 | [agent_with_subagent.py](examples/agent_with_subagent.py) | Context isolation with sub-agents to keep prompts focused on relevant tools. |
 | [agent_without_subagent.py](examples/agent_without_subagent.py) | Context bloat example where one agent carries all tool schemas in a single prompt. |
 | [agent_summarization.py](examples/agent_summarization.py) | Context compaction via summarization middleware to reduce token usage in long conversations. |
+| [workflow_magenticone.py](examples/workflow_magenticone.py) | A MagenticOne multi-agent workflow. |
 | [agent_tool_approval.py](examples/agent_tool_approval.py) | Standalone agent with tool approval — gates sensitive operations before execution. |
 | [agent_middleware.py](examples/agent_middleware.py) | Agent, chat, and function middleware for logging, timing, and blocking. |
 | [agent_knowledge_aisearch.py](examples/agent_knowledge_aisearch.py) | Knowledge retrieval (RAG) using Azure AI Search with AgentFrameworkAzureAISearchRAG. |

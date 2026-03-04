@@ -189,6 +189,7 @@ Puedes ejecutar los ejemplos en este repositorio ejecutando los scripts en el di
 | [agent_with_subagent.py](agent_with_subagent.py) | Aislamiento de contexto con subagentes para mantener los prompts enfocados en herramientas relevantes. |
 | [agent_without_subagent.py](agent_without_subagent.py) | Ejemplo de inflado de contexto cuando un solo agente carga todos los esquemas de herramientas en un mismo prompt. |
 | [agent_summarization.py](agent_summarization.py) | Compactación de contexto mediante middleware de resumen para reducir el uso de tokens en conversaciones largas. |
+| [workflow_magenticone.py](workflow_magenticone.py) | Un workflow multi-agente MagenticOne. |
 | [agent_tool_approval.py](agent_tool_approval.py) | Agente independiente con aprobación de herramientas — controla operaciones sensibles antes de ejecutarlas. |
 | [agent_middleware.py](agent_middleware.py) | Middleware de agente, chat y funciones para logging, timing y bloqueo. |
 | [agent_knowledge_aisearch.py](agent_knowledge_aisearch.py) | Recuperación de conocimiento (RAG) usando Azure AI Search con AgentFrameworkAzureAISearchRAG. |
